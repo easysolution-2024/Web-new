@@ -1,0 +1,525 @@
+@font-face {
+  font-family: 'InstrumentSans-Bold';
+  src: url('./assets/font/InstrumentSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'InstrumentSans-Regular';
+  src: url('./assets/font/InstrumentSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'InstrumentSans-SemiBold';
+  src: url('./assets/font/InstrumentSans-SemiBold.ttf');
+}
+
+
+@font-face {
+  font-family: 'ZubtrakStencil-Regular';
+  src: url('./assets/font/ZubtrakStencil-Regular.woff')
+          ('./assets/font/ZubtrakStencil-Regular.woff2');
+}
+
+@font-face {
+  font-family: 'ZubtrakStencil_Regular';
+  src: url('./assets/font/ZubtrakStencil-Regular.ttf')
+}
+
+
+@font-face {
+  font-family: 'ZubtrakStencil-Black';
+  src: url('./assets/font/ZubtrakStencil-Black.woff')
+          ('./assets/font/ZubtrakStencil-Black.woff2');
+}
+
+.instrument-bold{
+	font-family: 'InstrumentSans-Bold' !important;
+}
+
+.instrument-Regular{
+	font-family: InstrumentSans-Regular !important;
+}
+
+.Instrument-SemiBold{
+	font-family: InstrumentSans-SemiBold !important;
+}
+ul,ol{
+  list-style: none;
+}
+p.h1,h2,h3,h4{
+  margin: 0px;
+  padding:0px;
+}
+a{
+  text-decoration: none;
+}
+body{
+  margin:0px;
+  padding:0px;
+  
+  }
+  .white-color{
+    color:#fff;
+  }
+  
+  
+  .headerActionLeft{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+  }
+  
+  .headerActionLeft li{
+    display:inline-block;
+  }
+  .headerActionLeft li a{
+    padding:5px 5px;
+    text-decoration:none;
+    font-size: 1.5em;
+    font-weight:400;
+    color:#fff;
+    font-family: 'InstrumentSans-Regular', sans-serif !important;
+  }
+  
+  .headerActionRight {
+    list-style:none;
+    margin:0px;
+    padding:0px;
+  }
+  .headerActionRight li{
+    display:inline-block;
+  }
+  .headerActionRight li a{
+    padding:5px 20px;
+    text-decoration:none;
+    font-size: 1.5em;
+    font-weight:400;
+    color:#fff;
+    font-family: 'ZubtrakStencil_Regular' !important;
+    letter-spacing: 0.5px;
+  }
+  .flexDiv{
+    display: flex;
+      justify-content: space-between;
+  }
+  
+  .bg-1{
+    background:#402622;
+  }
+  
+  .modalAction{
+    padding:0px;
+    margin:0px;
+  }
+  
+  .modalAction li{
+    
+  }
+  
+  .modalAction li a {
+    text-decoration: none;
+      font-size: 5.25em;
+      font-weight: 400;
+      color: #FF70D6;
+      font-family: 'ZubtrakStencil_Regular' !important;
+      letter-spacing: 0.5px;
+      display: block;
+      border-top: 0.5px solid #FF70D6;
+  }
+  
+  .brd-bottom{
+    border-bottom: 0.5px solid #FF70D6;
+  }
+  .modalHeading{
+    border-top: 0.5px solid #FF70D6;
+    color:#FF70D6;
+    font-size:0.875em;
+    font-weight:600;
+    font-family: 'InstrumentSans-Regular', sans-serif !important;
+    padding-top:9px;
+    letter-spacing:0.5px;
+  }
+  
+  .memberShipSubText {
+    list-style: none;
+    padding: 0px;
+    margin:0px;
+  }
+  .memberShipSubText li{     
+    display: flex;
+      padding: 2px 0;
+      color: #FF70D6;
+      align-items: baseline;
+      font-size: 0.87em;
+      letter-spacing: 0.5px;
+    } 
+    
+    .py-6 {
+      padding-top: 4rem!important;
+      padding-bottom: 4rem!important;
+  }
+  .ps-6 {
+      padding-left: 4rem!important;
+  }
+  
+  .pe-6 {
+      padding-right: 4rem!important;
+  }
+  .polygonFlex{
+        display: flex;
+      justify-content: center;
+  }
+  .relative{
+    position:relative;
+  }
+  .becomeAmember{
+    position: absolute;
+      top: 5px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      color: #FF70D6;
+    margin-bottom:0px;
+    font-family: 'InstrumentSans-Regular', sans-serif !important;
+    letter-spacing:0.5px;
+    font-size:1.5em;
+    font-weight:bold;
+  }
+  .my-4-5{
+    margin-top: 2rem;
+      margin-bottom: 2rem;
+  }
+  .modalBottomIcon {
+      list-style: none;
+      margin: 0px;
+      text-align: center;
+      border-width: 0.5px 0px 0.5px 0px;
+      border-style: solid;
+      border-color: #FF70D6;
+      padding: 25px 0px;
+  }
+  .modalBottomIcon li{
+    display:inline-block;
+  }
+  
+  .modalBottomIcon li a{
+     color: #FF70D6;
+      margin-bottom: 0px;
+      font-family: 'InstrumentSans-Regular', sans-serif !important;
+      letter-spacing: 0.5px;
+      font-size: 1.5em;
+      font-weight: bold;
+      text-decoration: none;
+      width: 100%;
+      display: inline;
+      text-align: center;
+      margin-right: 20px;
+  }
+  
+  .modalBottomIcon li a:last-child{
+    margin-right: 0px;
+  }
+  .justify-space{
+    justify-content:space-between;
+  }
+  .footerHeading{
+    font-size:1.25em;
+    font-family: 'InstrumentSans-Regular', sans-serif !important;
+    font-weight: 400;
+    color: #FF70D6;
+    letter-spacing:0.5px;
+  }
+  .headingBorder{
+    border-top: 1px solid #FF70D6;
+      border-bottom: 1px solid #FF70D6;
+      padding: 6px 0px;
+      align-items: center;
+  }
+  
+  .footerListUl{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+  }
+  .footerListUl li{
+    /* display: table-caption; */
+  }
+  
+  .footerListUl li a{
+    text-decoration:none;
+    font-family: 'InstrumentSans-Regular', sans-serif !important;
+    font-weight: 400;
+    color: #FF70D6;
+    letter-spacing:0.5px;
+    font-size:1.25em;
+    padding:4px 0px;
+    display: block;
+    width:auto;
+  }
+  .footerListUlIcon{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+  }
+  
+  .footerListUlIcon li{
+    display: flex;
+      justify-content: space-between;
+  }
+  
+  .footerListUlIcon li a{
+    text-decoration:none;
+    padding:4px 2px;
+  }
+  .absoluteDiv{
+        position: absolute;
+      top: 0;
+      width: 100%;
+  
+  }
+  
+  .whiteLogoSection{
+    top: 50%;
+      position: absolute;
+      left: 0;
+      right: 0;
+  text-align: center;}
+  
+  .indiaLargestText{
+    font-family: 'ZubtrakStencil_Regular' !important;
+    font-size: 5.25em;
+      line-height: 100.8px;
+      font-weight: 400;
+  }
+  .flexBtn{
+        display: flex;
+      align-items: flex-end;
+  }
+  .ahujaText{
+    font-size:8.18em;
+    font-weight:400;
+    line-height:131px;
+    font-family: 'ZubtrakStencil_Regular' !important;
+    color:#000000
+  }
+  .dayText{
+    font-size:1.5em;
+    font-weight:400;
+    line-height:29.28px;
+    font-family: 'InstrumentSans-Regular', sans-serif !important;
+    color:#000000
+  }
+  .addressText{
+    font-size:1.5em;
+    font-weight:600;
+    line-height:29.28px;
+    font-family: 'InstrumentSans-Regular', sans-serif !important;
+    color:#000000;
+    letter-spacing: 1px;
+  }
+  .dayFlex{
+        display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-top: 0.8em;
+  }
+  
+  .p-6{
+    padding:4rem;
+  }
+  .bg-2{
+    background:#DACABD;
+  }
+  .bg-3{
+    background:#FF6319;
+  }
+  .knmaOpen{
+    font-size:5.25em;
+    font-weight:400;
+    line-height:100px;
+    font-family: 'ZubtrakStencil_Regular' !important;
+    color:#000000
+  }
+  .leftFlex{
+    display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  .list-unstyled li a{
+    font-size:1.5em;
+    font-weight:400;
+    line-height:29.28px;
+    font-family: 'InstrumentSans-Regular', sans-serif !important;
+    color:#fff;
+    text-decoration: none;
+  }
+  .ScreeningBtn{
+    border: 1px solid #fff;
+    font-size: 1.12em;
+    font-weight: 400;
+    color: #fff;
+    background: transparent;
+    font-family: 'InstrumentSans-Regular', sans-serif !important;
+    padding: 6px 10px;
+  }
+  .userNameText{
+    font-size:8.24em;
+    font-weight:400;
+    line-height:163.65px;
+    font-family: 'ZubtrakStencil_Regular' !important;
+    color:#fff;
+  }
+  .blurImage{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .imageText{
+    position: absolute;
+    bottom: 3em;
+    left: 5em;
+  }
+  .polygonBtn{
+    font-size:1.5em;
+    font-weight:600;
+    line-height:29.28px;
+    font-family: 'InstrumentSans-Regular', sans-serif !important;
+    color:#000;
+    position: absolute;
+    top: 11px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .cursor-pointer{
+    cursor: pointer;
+  }
+  .userNameText-4{
+    font-size:16.31em;
+    font-weight:400;
+    font-family: 'ZubtrakStencil_Regular' !important;
+    color:#FF6319;
+  }
+  .imageText-4{
+    position: absolute;
+    top: 2em;
+    left: 5em;
+  }
+  .lineHeight-300{
+    line-height: 300px;
+  }
+  .marqueeText{
+    font-size:5.25em;
+    font-weight:400;
+    line-height:100px;
+    font-family: 'ZubtrakStencil_Regular' !important;
+    color:#000000
+  }
+  .bg-4{
+    background: #5BE56F;
+  }
+  .bg-5{
+    background: #9161F2;
+  }
+  .discoverBtn{
+    font-size: 1em;
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+    letter-spacing: 0.5px;
+    padding: 6px 10px;
+    font-family: 'InstrumentSans-Regular', sans-serif !important;
+  }
+  .disCoverAdd{
+    font-size: 1em;
+    color: #000;
+    letter-spacing: 0.5px;
+    font-family: 'InstrumentSans-Regular', sans-serif !important;
+  }
+  .w-20{
+    width: 20px;
+  }
+  .disHeading{
+    font-size: 2.18em;
+    font-weight:500;
+    line-height:42px;
+    font-family: 'ZubtrakStencil_Regular' !important;
+    color:#000000
+  }
+  .disYear{
+    font-size: 1em;
+    font-weight:400;
+    line-height:19.52px;
+    font-family: 'InstrumentSans-Regular', sans-serif !important;
+    color:#000000
+  }
+  .sectionHead{
+    font-size: 2.81em;
+    font-family: 'ZubtrakStencil_Regular' !important;
+    color:#000000;
+    font-weight:400;
+  }
+  .text-justify{
+    align-items: center;
+    justify-content: center;
+  }
+  .becomeMember{
+    font-size:5.25em;
+    font-weight:400;
+    line-height:100px;
+    font-family: 'ZubtrakStencil_Regular' !important;
+    color:#FF70D6
+  }
+  .memberText{
+    font-size: 1.37em;
+    font-weight:400;
+    line-height:26.84px;
+    font-family: 'InstrumentSans-Regular', sans-serif !important;
+    color:#FF70D6
+  }
+  .bg-6{
+    background: #FF6319;
+  }
+  .annImgText{
+    font-size: 2.18em;
+    font-family: 'ZubtrakStencil_Regular' !important;
+    color:#000000;
+    font-weight:400;
+  }
+  .readMoreText{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+
+  .readMoreText li a{
+    text-decoration: none;
+    font-size: 0.89em;
+    color:#000000;
+    font-family: 'InstrumentSans-Regular', sans-serif !important;
+  }
+  .lobbyText{
+    font-size: 2.18em;
+    font-family: 'ZubtrakStencil_Regular' !important;
+    color:#000000;
+    font-weight:400;
+  }
+
+  .bg-7{
+    background: #FF70D6;
+  }
+
+  .bg-8{
+    background: #DACABD;
+  }
+  .align-end{
+    align-items: flex-end;
+  }
+  .viewCollection{
+    font-size: 1.5em;
+    color: #000;
+    letter-spacing: 0.5px;
+    font-family: 'InstrumentSans-Regular', sans-serif !important;
+    font-weight: 600;
+  }
