@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="row ps-4">
               <div className="col">
                 <div className="d-flex justify-space headingBorder">
-                  <div className="footerHeading">About</div>
+                  <div className="footerHeading">About 2</div>
                   <div><img src={images.DownArrow} alt="Down Arrow" /></div>
                 </div>
                 <div className="footerList pt-2">
